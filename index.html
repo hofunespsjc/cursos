@@ -122,6 +122,13 @@ section.block{padding:104px 0}
 .notice{max-width:1000px;margin:40px auto 0;background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--bronze);border-radius:14px;padding:18px 22px;font-size:.88rem;color:var(--muted)}
 .notice b{color:var(--ink);font-weight:600}
 .priority{max-width:1000px;margin:16px auto 0;font-size:.85rem;color:var(--muted);text-align:center}
+.policy{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1000px;margin:0 auto}
+.pol{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:24px 22px}
+.pol h3{font-size:1.3rem;margin-bottom:8px}
+.pol p{font-size:.86rem;color:var(--muted);font-weight:300}
+.pol a{color:var(--bronze-dk)}
+.agree{font-size:.78rem;color:var(--muted);margin-top:22px}
+.agree a{color:var(--bronze-dk)}
 /* format */
 .format{background:var(--ink);color:#EDE4D8}
 .format .eyebrow{color:#C9A27A}
@@ -170,7 +177,7 @@ footer a{color:var(--bronze-dk)}
   .courses{grid-template-columns:1fr}
   .course{padding:34px 26px 30px}
   .steps{grid-template-columns:1fr 1fr}
-  .audience,.enroll{grid-template-columns:1fr}
+  .audience,.enroll,.policy{grid-template-columns:1fr}
   .teachers{gap:20px}
   .teacher h3{font-size:1.5rem}
   header .btn{display:none}
@@ -277,7 +284,6 @@ footer a{color:var(--bronze-dk)}
         </div>
       </article>
     </div>
-    <p class="promo">Valores promocionais válidos para esta edição.</p>
   </div>
 </section>
 
@@ -345,7 +351,23 @@ footer a{color:var(--bronze-dk)}
       <div class="en"><span class="n">03</span><h3>Pagamento</h3><p>Após a aprovação da documentação, você recebe o link para pagamento dos R$ 1.100,00 restantes.</p></div>
     </div>
     <div class="notice"><b>Atenção:</b> o preenchimento do formulário, o envio dos documentos e o pagamento da taxa de inscrição não representam confirmação automática da vaga.</div>
-    <p class="priority">Participantes do grupo oficial de interessados têm prioridade no acesso às inscrições.</p>
+  </div>
+</section>
+
+<section class="block" id="politica" style="padding-top:0">
+  <div class="wrap">
+    <div class="head">
+      <span class="eyebrow">Transparência</span>
+      <h2>Política de reembolso e cancelamento</h2>
+    </div>
+    <div class="policy">
+      <div class="pol"><h3>Inscrição não aprovada</h3><p>Se a documentação não for aprovada pela coordenação, a taxa de inscrição de R$ 100,00 é devolvida integralmente em até 10 dias úteis.</p></div>
+      <div class="pol"><h3>Desistência em até 7 dias</h3><p>A desistência solicitada em até 7 dias após o pagamento garante a devolução integral dos valores pagos, conforme o art. 49 do Código de Defesa do Consumidor.</p></div>
+      <div class="pol"><h3>Desistência após 7 dias</h3><p>Até 10 dias antes da imersão: devolução dos valores pagos, descontada a taxa de inscrição (R$ 100,00). A menos de 10 dias da imersão: retenção de 20% do valor total, referente a custos de organização, materiais e agendamento de pacientes.</p></div>
+      <div class="pol"><h3>Transferência de vaga</h3><p>Em caso de desistência, a vaga pode ser transferida para outra pessoa que atenda ao público-alvo, mediante aprovação da documentação, sem custo adicional.</p></div>
+      <div class="pol"><h3>Cancelamento pela organização</h3><p>Se a imersão for cancelada ou adiada pela organização, o participante escolhe entre a devolução integral dos valores pagos ou a transferência para a nova data.</p></div>
+      <div class="pol"><h3>Como solicitar</h3><p>Solicitações devem ser feitas por escrito, pelo e-mail <a href="mailto:hofunesp@gmail.com">hofunesp@gmail.com</a> ou pelo Instagram <a href="https://www.instagram.com/hofunespsjc/" target="_blank" rel="noopener">@hofunespsjc</a>. As devoluções são feitas em até 10 dias úteis após a confirmação.</p></div>
+    </div>
   </div>
 </section>
 
@@ -359,12 +381,13 @@ footer a{color:var(--bronze-dk)}
       <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSe6tvFy2hs4COhI6hoNwAirzuN9A6Jj7l4EIRzXNuua2UX61w/viewform" target="_blank" rel="noopener" data-curso="toxina-botulinica">Toxina · 04/12</a>
       <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSe6tvFy2hs4COhI6hoNwAirzuN9A6Jj7l4EIRzXNuua2UX61w/viewform" target="_blank" rel="noopener" data-curso="preenchimento-labial">Preenchimento · 11/12</a>
     </div>
+    <p class="agree">Ao se inscrever, você declara estar de acordo com a <a href="#politica">política de reembolso e cancelamento</a>.</p>
   </div>
 </section>
 
 <footer>
   <div class="sig">HOF UNESP · Ciência • Planejamento • Prática Clínica</div>
-  <div><a href="https://www.instagram.com/hofunespsjc/" target="_blank" rel="noopener">@hofunespsjc</a></div>
+  <div>Dúvidas: <a href="mailto:hofunesp@gmail.com">hofunesp@gmail.com</a> · Instagram <a href="https://www.instagram.com/hofunespsjc/" target="_blank" rel="noopener">@hofunespsjc</a></div>
 </footer>
 
 <nav class="sticky">
