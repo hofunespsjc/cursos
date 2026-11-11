@@ -7,6 +7,14 @@
 <meta name="description" content="Imersões clínicas em Toxina Botulínica (04/12) e Preenchimento Labial (11/12) com a Profa. Dra. Paula Komori e a Profa. Dra. Hertha Dadério. Ciência, planejamento e prática clínica supervisionada em pacientes. Vagas limitadas.">
 <meta property="og:title" content="Imersões Clínicas em Harmonização Orofacial — HOF UNESP">
 <meta property="og:description" content="Toxina Botulínica (04/12) e Preenchimento Labial (11/12). Prática clínica supervisionada em pacientes. Vagas limitadas.">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-82TGK979TZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-82TGK979TZ');
+</script>
 <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -404,6 +412,7 @@ document.querySelectorAll('a[data-curso]').forEach(function(a){
     window.dataLayer=window.dataLayer||[];
     window.dataLayer.push({event:'clique_inscricao',curso:c});
     if(typeof fbq==='function'){fbq('track','Lead',{content_name:c});}
+    if(typeof gtag==='function'){gtag('event','generate_lead',{curso:c,currency:'BRL',value:1200});}
   });
 });
 </script>
